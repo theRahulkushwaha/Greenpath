@@ -35,7 +35,7 @@ const HomeScreen = ({navigation}) => {
 
         <View style={HomeScreenStyle.WholeMapBox}>
           <View style={HomeScreenStyle.TopText}>
-            <Text style={HomeScreenStyle.NearByBin}> Nearby bin station </Text>
+            <Text style={HomeScreenStyle.NearByBin}> Nearby bin station: </Text>
             <TouchableOpacity>
               <Text
                 style={HomeScreenStyle.ViewAll}
