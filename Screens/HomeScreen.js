@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}) => {
         <Text style={HomeScreenStyle.HiPeople}> Hi People,</Text>
 
         <View style={HomeScreenStyle.inline1}>
-          <Text style={HomeScreenStyle.Welcome}>Welcome!!!</Text>
+          <Text style={HomeScreenStyle.Welcome}>Welcome!</Text>
           <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
             <Image
               source={require('../Assets/man.png')}
@@ -35,7 +35,7 @@ const HomeScreen = ({navigation}) => {
 
         <View style={HomeScreenStyle.WholeMapBox}>
           <View style={HomeScreenStyle.TopText}>
-            <Text style={HomeScreenStyle.NearByBin}> Nearby bin station: </Text>
+            <Text style={HomeScreenStyle.NearByBin}> Nearby bin station </Text>
             <TouchableOpacity>
               <Text
                 style={HomeScreenStyle.ViewAll}
