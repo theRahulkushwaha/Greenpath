@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}) => {
         <Text style={HomeScreenStyle.HiPeople}> Hi People,</Text>
 
         <View style={HomeScreenStyle.inline1}>
-          <Text style={HomeScreenStyle.Welcome}>Welcome!</Text>
+          <Text style={HomeScreenStyle.Welcome}>Welcome!!!</Text>
           <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
             <Image
               source={require('../Assets/man.png')}
