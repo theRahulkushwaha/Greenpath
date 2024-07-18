@@ -79,20 +79,28 @@ const BottomTabNavigator = () => {
         options={{
           headerShown: false,
           tabBarIcon: ({focused}) => (
-            <View>
+            <View style={{backgroundColor:'#8a2d57',
+              height:'100%',
+              width:'100%',
+              justifyContent:'center',
+              borderRadius:80,
+              
+            }}>
               <Image
                 source={require('../Assets/Icons/camera.png')}
                 resizeMode="contain"
                 style={{
-                  width: 25,
-                  height: 25,
+                  width: 45,
+                  height: 45,
                    tintColor: focused ? 'red' : 'white',
                   alignSelf:'center',
+                
+                  
                 }}></Image>
 
-              <Text style={{
+              {/* <Text style={{
                 color:'white',
-              }}>Camara</Text>
+              }}>Camara</Text> */}
             </View>
           ),
         }}></Tab.Screen>
