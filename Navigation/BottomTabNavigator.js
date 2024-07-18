@@ -63,6 +63,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
+                   tintColor: focused ? 'red' : 'white',
                   alignSelf:'center',
                 }}></Image>
 
@@ -85,6 +86,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
+                   tintColor: focused ? 'red' : 'white',
                   alignSelf:'center',
                 }}></Image>
 
@@ -107,6 +109,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
+                   tintColor: focused ? 'red' : 'white',
                   alignSelf:'center',
                 }}></Image>
 
@@ -129,6 +132,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
+                   tintColor: focused ? 'red' : 'white',
                   alignSelf:'center',
                 }}></Image>
 
