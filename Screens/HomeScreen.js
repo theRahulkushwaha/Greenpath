@@ -181,9 +181,7 @@ const HomeScreen = ({navigation}) => {
               </View>
         </View>
       </View>
-
             
-
     </View>
 
    

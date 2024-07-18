@@ -13,7 +13,21 @@ const Tab = createBottomTabNavigator();
 
 const BottomTabNavigator = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator 
+    screenOptions={{
+        showLabel: false,
+        tabBarStyle: {
+          position: 'absolute',
+          bottom: 10,
+          left: 20,
+          right: 20,
+          elevation: 0,
+          backgroundColor: '#18654a',
+          borderRadius: 15,
+          height: 60,
+        },
+      }}
+    >
       <Tab.Screen
         name="Home"
         component={StackNavigator}
@@ -27,7 +41,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? 'red' : 'black',
+                  tintColor: focused ? 'red' : 'white',
                 }}></Image>
             </View>
           ),
@@ -45,7 +59,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? 'red' : 'black',
+                  tintColor: focused ? 'red' : 'white',
                 }}></Image>
             </View>
           ),
@@ -63,7 +77,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? 'red' : 'black',
+                  tintColor: focused ? 'red' : 'white',
                 }}></Image>
             </View>
           ),
@@ -81,7 +95,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? 'red' : 'black',
+                  tintColor: focused ? 'red' : 'white',
                 }}></Image>
             </View>
           ),
@@ -90,7 +104,7 @@ const BottomTabNavigator = () => {
         name="Account"
         component={AccountScreen}
         options={{
-          headerShown: false,
+          headerShown:false,
           tabBarIcon: ({focused}) => (
             <View>
               <Image
@@ -99,7 +113,7 @@ const BottomTabNavigator = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? 'red' : 'black',
+                  tintColor: focused ? 'red' : 'white',
                 }}></Image>
             </View>
           ),

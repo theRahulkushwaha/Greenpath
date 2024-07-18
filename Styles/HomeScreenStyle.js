@@ -51,6 +51,7 @@ const HomeScreenStyle = StyleSheet.create({
   LocationMarkerIcon: {
     height: 20,
     width: 20,
+    tintColor:'white'
   },
 
   YourAddress: {
@@ -62,6 +63,7 @@ const HomeScreenStyle = StyleSheet.create({
   BellIcon: {
     height: 35,
     width: 35,
+    tintColor:'white'
   },
 
   SearchBoxandQrIcon: {
@@ -121,15 +123,19 @@ const HomeScreenStyle = StyleSheet.create({
   },
 
   ServicesBoxIcons: {
-    height: '50%',
-    width: '50%',
+    height: '40%',
+    width: '40%',
     alignSelf: 'center',
+    tintColor:'white',
+    
   },
 
   ServicesBoxText: {
     alignSelf: 'center',
     fontSize: 13,
     color: 'white',
+    top:3
+
   },
 
 ////////////////////// Recycle MATERIAL \\\\\\\\\\\\\\\\\\\\\\\
@@ -193,11 +199,18 @@ const HomeScreenStyle = StyleSheet.create({
 
   NBRSContainer:{
   
-      height:200,
+      height:190,
       marginTop:'2%',
-      // borderColor:'black',
-      // borderWidth:2,
-      flexDirection:'row'
+      borderColor:'#D8E5E1',
+      borderWidth:2,
+      flexDirection:'row',
+      backgroundColor:'#f1fffa',
+      width:'95%',
+      alignItems:'center',
+      alignSelf:'center',
+      borderRadius:30
+    
+      
 
   },
 
@@ -207,9 +220,9 @@ const HomeScreenStyle = StyleSheet.create({
   },
 
    MapContainer:{
-    // borderColor:'black',
-    // borderWidth:2,
-    height:'80%',
+    borderColor:'#f1fffa',
+    borderWidth:2,
+    height:'90%',
     width:'40%',
     margin:'3%',
     borderRadius:30,
@@ -234,7 +247,9 @@ const HomeScreenStyle = StyleSheet.create({
    NBRSAddress:{
     top:'16%',
     right:'54%',
-    fontSize:14
+    fontSize:14,
+    color:'#18654a',
+    fontWeight:'bold'
    },
 });
 
