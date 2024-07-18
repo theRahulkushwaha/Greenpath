@@ -11,7 +11,7 @@ const StackNavigator = () => {
     return (
         <Stack.Navigator initialRouteName="Home">
           <Stack.Screen
-            name="Home"
+            name="Home1"
             component={HomeScreen}
             options={{headerShown: false}}
           />

@@ -5,7 +5,7 @@ const Profile = ({navigation}) => {
   return (
     <View>
       <Text>Profile</Text>
-      <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
+      <Button title="Go to Home" onPress={() => navigation.navigate('Home1')} />
     </View>
   );
 };
