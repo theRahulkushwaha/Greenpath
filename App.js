@@ -13,7 +13,7 @@ const GreenPath = () => {
   
   const styles = StyleSheet.create({
     container: {
-      flex: 1, // Ensure the view takes up the full screen
+      flex: 1,
     },
   });
 
