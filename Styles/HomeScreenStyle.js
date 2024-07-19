@@ -95,9 +95,10 @@ const HomeScreenStyle = StyleSheet.create({
   },
 
   OurServicesText: {
-    paddingLeft: '3%',
-    fontSize: 16,
+    paddingLeft: '5%',
+    fontSize: 18,
     fontWeight: 'bold',
+    color:'black'
     
   },
 
@@ -107,7 +108,7 @@ const HomeScreenStyle = StyleSheet.create({
     alignSelf: 'center',
     top: '2%',
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent:'space-around',
     // borderColor:'black',
     // borderWidth:2,
   },
@@ -146,9 +147,10 @@ const HomeScreenStyle = StyleSheet.create({
  },
 
  RecycleMaterialText:{
-  paddingLeft: '3%',
-  fontSize: 16,
+  paddingLeft: '5%',
+  fontSize: 18,
   fontWeight: 'bold',
+  color:'black'
  },
 
  MateriealContainer:{
@@ -162,15 +164,15 @@ const HomeScreenStyle = StyleSheet.create({
  },
  
  MateriealTypeContainer:{
- justifyContent:'space-between',
+ justifyContent:'space-around',
  marginTop:10,
- marginLeft:12,
- marginRight:8,
+ marginLeft:16,
+ marginRight:2,
  },
 
  MateriealImage:{
-    height:'85%',
-    width:120,
+    height:'90%',
+    width:130,
   //   borderColor:'black',
   //  borderWidth:2,
    borderRadius:20
@@ -178,23 +180,27 @@ const HomeScreenStyle = StyleSheet.create({
  },
 
  MateriealText:{
-    
+  top:'2%',
+    left:'6%',
     fontSize: 13,
     color: 'black',
+    fontWeight:'bold',
  },
 
 // \\\\\\\\\\\\\\\\\\\\\\\ NEARBY RECYCLE STATION \\\\\\\\\\\\\\\\\\\\\\
 
     WholeBox:{
-      top:50,
+      top:60,
       
       
     } ,
 
     NBRSText:{
-        fontSize:16,
+        fontSize:18,
       fontWeight:'bold',
-      marginLeft:"3%",
+      marginLeft:"5%",
+      color:'black',
+
     },
 
   NBRSContainer:{
@@ -233,9 +239,10 @@ const HomeScreenStyle = StyleSheet.create({
     // flex:1,
     // borderColor:'black',
     // borderWidth:2,
-    top:'7%'
-    
-
+    top:'7%',
+    color:'black',
+    fontWeight:'bold'
+  
    },
    
    DistanceAndTime:{

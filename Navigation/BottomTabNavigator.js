@@ -17,10 +17,10 @@ const BottomTabNavigator = () => {
       screenOptions={{
         tabBarShowLabel: false,
         tabBarStyle: {
-          position: 'absolute',
-          bottom: 10,
-          left: 20,
-          right: 20,
+          // position: 'absolute',
+          // bottom: 10,
+          // left: 20,
+          // right: 20,
           elevation: 0,
           backgroundColor: '#18654a',
           borderRadius: 15,

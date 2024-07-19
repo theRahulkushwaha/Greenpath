@@ -52,7 +52,7 @@ const HomeScreen = ({navigation}) => {
         {/* SEARCH BOX AND SCANNER */}
         <View style={HomeScreenStyle.SearchBoxAndQrIcon}>
           <TouchableOpacity style={HomeScreenStyle.Searchbox}>
-            <TextInput placeholder="  Search"></TextInput>
+            <TextInput placeholder="Search" placeholderTextColor={'black'} style={{left:'4%', fontSize:18}}></TextInput>
           </TouchableOpacity>
 
           {/* <Image source={require('../Assets/QrIcon.png')}
