@@ -3,10 +3,6 @@
 .DS_Store
 
 
-#AndroidManifest.xml : To protect my API KEY
-android/app/src/main/AndroidManifest.xml
-
-
 # Xcode
 #
 build/
