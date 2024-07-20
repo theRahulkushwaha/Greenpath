@@ -115,11 +115,11 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
   },
   button: {
-    width: '90%',
+    width: '50%',
     height: 50,
     alignSelf: 'center',
     position: 'absolute',
-    bottom: 100,
+    bottom: 40,
     backgroundColor: 'green',
     justifyContent: 'center',
     alignItems: 'center',
