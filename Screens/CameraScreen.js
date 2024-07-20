@@ -1,11 +1,11 @@
 import React from "react";
 import { Text,View } from "react-native";
 
-const CamaraScreen = () => {
+const CameraScreen = () => {
     return(
         <View>
             <Text>
-            CamaraScreen
+            CameraScreen
 
             </Text>
 
@@ -13,4 +13,4 @@ const CamaraScreen = () => {
     );
 };
 
-export default CamaraScreen;
+export default CameraScreen;
