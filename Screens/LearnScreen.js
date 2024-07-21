@@ -1,15 +1,15 @@
 import React from "react";
 import { Text,View } from "react-native";
 
-const WalletScreen = () => {
+const LearnScreen = () => {
     return(
         <View>
             <Text>
-            WalletScreen
+            LearnScreen
 
             </Text>
         </View>
     );
 };
 
-export default WalletScreen;
+export default LearnScreen;

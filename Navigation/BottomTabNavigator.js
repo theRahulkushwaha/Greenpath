@@ -3,9 +3,9 @@ import { View, Text, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import HomeScreen from '../Screens/HomeScreen';
-import RecycleScreen from '../Screens/RecycleScreen';
+import StationScreen from '../Screens/StationScreen';
 import CameraScreen from '../Screens/CameraScreen';
-import WalletScreen from '../Screens/WalletScreen';
+import LearnScreen from '../Screens/LearnScreen';
 import AccountScreen from '../Screens/AccountScreen';
 
 const Tab = createBottomTabNavigator();
@@ -42,8 +42,8 @@ const BottomTabNavigator = () => {
           ),
         }} />
       <Tab.Screen
-        name="Recycle"
-        component={RecycleScreen}
+        name="Station"
+        component={StationScreen}
         options={{
           headerShown: false,
           tabBarIcon: ({ focused }) => (
@@ -57,7 +57,7 @@ const BottomTabNavigator = () => {
                   tintColor: focused ? 'red' : 'white',
                   alignSelf: 'center',
                 }} />
-              <Text style={{ color: 'white' }}>Recycle</Text>
+              <Text style={{ color: 'white' }}>Station</Text>
             </View>
           ),
         }} />
@@ -88,7 +88,7 @@ const BottomTabNavigator = () => {
         }} />
       <Tab.Screen
         name="Wallet"
-        component={WalletScreen}
+        component={LearnScreen}
         options={{
           headerShown: false,
           tabBarIcon: ({ focused }) => (

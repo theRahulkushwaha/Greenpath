@@ -1,14 +1,14 @@
 import React from "react";
 import { Text,View } from "react-native";
 
-const RecycleScreen = () => {
+const StationScreen = () => {
     return(
         <View>
           <Text>
-          RecycleScreen
+          StationScreen
             </Text>  
         </View>
     );
 };
 
-export default RecycleScreen;
+export default StationScreen;
