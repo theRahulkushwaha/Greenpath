@@ -49,7 +49,7 @@ const BottomTabNavigator = () => {
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
-                source={require('../Assets/Icons/triangular-arrows-sign-for-recycle.png')}
+                source={require('../Assets/Icons/Station.png')}
                 resizeMode="contain"
                 style={{
                   width: 25,
@@ -87,14 +87,14 @@ const BottomTabNavigator = () => {
           ),
         }} />
       <Tab.Screen
-        name="Wallet"
+        name="Learn"
         component={LearnScreen}
         options={{
           headerShown: false,
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
-                source={require('../Assets/Icons/wallet.png')}
+                source={require('../Assets/Icons/learning.png')}
                 resizeMode="contain"
                 style={{
                   width: 25,
@@ -102,7 +102,7 @@ const BottomTabNavigator = () => {
                   tintColor: focused ? 'red' : 'white',
                   alignSelf: 'center',
                 }} />
-              <Text style={{ color: 'white' }}>Wallet</Text>
+              <Text style={{ color: 'white' }}>Learn</Text>
             </View>
           ),
         }} />
