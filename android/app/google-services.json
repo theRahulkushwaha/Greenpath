@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477005056711",
+    "project_id": "greenpath-7d0d1",
+    "storage_bucket": "greenpath-7d0d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477005056711:android:df901b59d4c6b58c8acce2",
+        "android_client_info": {
+          "package_name": "com.greenpath"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2sOvjQZLSATgioSS_KCiy849CIhWw5nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

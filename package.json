@@ -10,7 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@firebase/firestore": "^4.6.4",
     "@react-native-community/geolocation": "^3.3.0",
+    "@react-native-firebase/app": "^20.3.0",
+    "@react-native-firebase/firestore": "^20.3.0",
     "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/native-stack": "^6.10.0",
