@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, StyleSheet} from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import AppNavigator from './Navigation/AppNavigator';
 
 const GreenPath = () => {

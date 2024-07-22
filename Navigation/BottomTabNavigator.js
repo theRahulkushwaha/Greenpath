@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
 import HomeScreen from '../Screens/HomeScreen';
 import StationScreen from '../Screens/StationScreen';
 import CameraScreen from '../Screens/CameraScreen';
