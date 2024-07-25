@@ -32,12 +32,12 @@ const SignupScreenStyle = StyleSheet.create({
     },
 
     EnterDataContainer:{
-        height:"43%",
+        height:"50%",
         width:"100%",
         // backgroundColor:"blue",
         // borderColor:'black',
         // borderWidth:2,
-        paddingTop:'10%'
+        paddingTop:'5%',
     },
 
     
@@ -59,7 +59,7 @@ const SignupScreenStyle = StyleSheet.create({
     },
 
     Button:{
-        height:'27%',
+        height:'20%',
         width:'100%',
         // borderColor:'black',
         // borderWidth:2,
@@ -84,8 +84,8 @@ const SignupScreenStyle = StyleSheet.create({
     ORandAlready:{
         height:"5%",
         width:'100%',
-        borderColor:'black',
-        borderWidth:2
+        // borderColor:'black',
+        // borderWidth:2
     },
 
     ORText:{

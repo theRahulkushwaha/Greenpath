@@ -21,7 +21,7 @@ const SignupScreen = ({navigation}) => {
       .createUserWithEmailAndPassword(email, password)
       .then((userCredential) => {
         console.log('User account created & signed in!');
-        navigation.navigate('Home');
+        navigation.navigate('BottomTabs');
       })
       .catch((error) => {
         if (error.code === 'auth/email-already-in-use') {
@@ -46,6 +46,12 @@ const SignupScreen = ({navigation}) => {
         <View style={SignupScreenStyle.EnterDataContainer}>
           <Text style={SignupScreenStyle.SignUpText}>SignUp</Text>
 
+          <TextInput
+            style={SignupScreenStyle.Placeholder}
+            placeholder="Name"
+            // value={name}
+            placeholderTextColor={'gray'}
+          />
           <TextInput
             style={SignupScreenStyle.Placeholder}
             placeholder="Email"
