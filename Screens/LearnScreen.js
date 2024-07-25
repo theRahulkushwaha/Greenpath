@@ -30,7 +30,7 @@ const LearnScreen = () => {
 
       <View style={styles.TopicWhole}>
         <View style={styles.Textcontainer1}>
-          <Text style={styles.Text}>Toipc for you</Text>
+          <Text style={styles.Text}>Topic for you</Text>
           <TouchableOpacity>
             <Text style={styles.Text}>See all</Text>
           </TouchableOpacity>
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     // borderWidth: 2,
     // bordercolor: 'black',
     borderRadius: 30,
-    backgroundColor: 'gray',
+    backgroundColor: '#EAEAE6',
     padding:'4%',
   },
 
@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     // borderWidth:2,
     // bordercolor:'black',
     marginBottom: '5%',
-    backgroundColor: 'gray',
+    backgroundColor: '#EAEAE6',
     borderRadius: 20,
   },
   H1: {
