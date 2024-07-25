@@ -89,7 +89,7 @@ const BottomTabNavigator = () => {
         name="Learn"
         component={LearnScreen}
         options={{
-          headerShown: false,
+          headerShown: true,
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
@@ -109,7 +109,7 @@ const BottomTabNavigator = () => {
         name="Account"
         component={AccountScreen}
         options={{
-          headerShown: false,
+          headerShown: true,
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
